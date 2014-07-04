@@ -2,10 +2,10 @@ int min = 0; //keeps track of current shortest path
 int[] currentPt;
 int[] nextPt;
 int j;
+/*@pjs preload="map.jpg";*/
 
 void setup (){
   size (1200, 715);
-
   PImage b = loadImage("map.jpg");
   background(b);
   frameRate(1);
