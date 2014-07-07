@@ -1,3 +1,19 @@
+/*make a class called point with x, y, used or not (boolean)
+array of points (the class)
+then do for loops to compare distances from a set city (not in setup, make a new function call in setup)
+check whether each point is used or not BEFORE calculating distance
+classname.trait to access it
+class Car {
+  int color;
+}
+Car one = new Car;
+one.color = 34;
+
+update min or repeat for loop
+store endpoint of minimum distance into array
+as for loop ends, draw the line */
+
+
 int min = 0; //keeps track of current shortest path
 int[] currentPt;
 int[] nextPt;
